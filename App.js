@@ -5,8 +5,8 @@ import { createStore, applyMiddleware } from 'redux'
 import firebase from 'firebase'
 import ReduxThunk from 'redux-thunk'
 
-import reducers from './reducers'
-import Router from './Router'
+import reducers from './src/reducers'
+import Router from './src/Router'
 
 const config = {
     apiKey: "AIzaSyBXpeLqaznAOB612_4K8Wyg6hmyDNXXmiI",
